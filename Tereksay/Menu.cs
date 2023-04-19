@@ -40,5 +40,11 @@ namespace WindowsFormsApp2Tereksay
             Production frm = new Production();
             frm.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Company company = new Company();
+            company.Show();
+        }
     }
 }
