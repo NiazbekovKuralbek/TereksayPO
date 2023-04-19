@@ -38,7 +38,17 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.оКомпанииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сотрудникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сотрудникиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.учредителиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.производствоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.социальнаяОтветственностьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчетИМедиаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.справочникToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -124,6 +134,65 @@
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button6.UseVisualStyleBackColor = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.оКомпанииToolStripMenuItem, this.производствоToolStripMenuItem, this.социальнаяОтветственностьToolStripMenuItem, this.отчетИМедиаToolStripMenuItem, this.справочникToolStripMenuItem });
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(896, 24);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // оКомпанииToolStripMenuItem
+            // 
+            this.оКомпанииToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.сотрудникиToolStripMenuItem, this.сотрудникиToolStripMenuItem1, this.учредителиToolStripMenuItem });
+            this.оКомпанииToolStripMenuItem.Name = "оКомпанииToolStripMenuItem";
+            this.оКомпанииToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.оКомпанииToolStripMenuItem.Text = "О Компании";
+            // 
+            // сотрудникиToolStripMenuItem
+            // 
+            this.сотрудникиToolStripMenuItem.Name = "сотрудникиToolStripMenuItem";
+            this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.сотрудникиToolStripMenuItem.Text = "История";
+            this.сотрудникиToolStripMenuItem.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem_Click);
+            // 
+            // сотрудникиToolStripMenuItem1
+            // 
+            this.сотрудникиToolStripMenuItem1.Name = "сотрудникиToolStripMenuItem1";
+            this.сотрудникиToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.сотрудникиToolStripMenuItem1.Text = "Сотрудники";
+            // 
+            // учредителиToolStripMenuItem
+            // 
+            this.учредителиToolStripMenuItem.Name = "учредителиToolStripMenuItem";
+            this.учредителиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.учредителиToolStripMenuItem.Text = "Учредители";
+            // 
+            // производствоToolStripMenuItem
+            // 
+            this.производствоToolStripMenuItem.Name = "производствоToolStripMenuItem";
+            this.производствоToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
+            this.производствоToolStripMenuItem.Text = "Производство";
+            // 
+            // социальнаяОтветственностьToolStripMenuItem
+            // 
+            this.социальнаяОтветственностьToolStripMenuItem.Name = "социальнаяОтветственностьToolStripMenuItem";
+            this.социальнаяОтветственностьToolStripMenuItem.Size = new System.Drawing.Size(179, 20);
+            this.социальнаяОтветственностьToolStripMenuItem.Text = "Социальная ответственность";
+            // 
+            // отчетИМедиаToolStripMenuItem
+            // 
+            this.отчетИМедиаToolStripMenuItem.Name = "отчетИМедиаToolStripMenuItem";
+            this.отчетИМедиаToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+            this.отчетИМедиаToolStripMenuItem.Text = "Отчет и медиа";
+            // 
+            // справочникToolStripMenuItem
+            // 
+            this.справочникToolStripMenuItem.Name = "справочникToolStripMenuItem";
+            this.справочникToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.справочникToolStripMenuItem.Text = "Справочник";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,11 +206,31 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Разработка ИС деятельности горнодобывабщей компании ОсОО \"Эти Бакыр Терексай\"";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
         }
+
+        private System.Windows.Forms.ToolStripMenuItem справочникToolStripMenuItem;
+
+        private System.Windows.Forms.ToolStripMenuItem отчетИМедиаToolStripMenuItem;
+
+        private System.Windows.Forms.ToolStripMenuItem социальнаяОтветственностьToolStripMenuItem;
+
+        private System.Windows.Forms.ToolStripMenuItem производствоToolStripMenuItem;
+
+        private System.Windows.Forms.ToolStripMenuItem сотрудникиToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem учредителиToolStripMenuItem;
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem оКомпанииToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сотрудникиToolStripMenuItem;
 
         private System.Windows.Forms.Button button6;
 
