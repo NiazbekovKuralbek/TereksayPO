@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tereksay", "Tereksay\Tereksay.csproj", "{868EFF9E-95B1-41AC-A089-C8FB4816AF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{868EFF9E-95B1-41AC-A089-C8FB4816AF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868EFF9E-95B1-41AC-A089-C8FB4816AF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868EFF9E-95B1-41AC-A089-C8FB4816AF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868EFF9E-95B1-41AC-A089-C8FB4816AF36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
