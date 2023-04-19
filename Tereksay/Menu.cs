@@ -46,5 +46,11 @@ namespace WindowsFormsApp2Tereksay
             Company company = new Company();
             company.Show();
         }
+
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("HELLO");
+        }
     }
 }
