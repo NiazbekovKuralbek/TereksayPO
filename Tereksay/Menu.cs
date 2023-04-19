@@ -51,6 +51,12 @@ namespace WindowsFormsApp2Tereksay
         private void button5_Click(object sender, EventArgs e)
         {
             MessageBox.Show("HELLO");
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
