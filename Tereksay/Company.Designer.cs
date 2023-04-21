@@ -60,13 +60,13 @@ namespace WindowsFormsApp2Tereksay
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(12, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(976, 223);
+            this.label2.Size = new System.Drawing.Size(976, 108);
             this.label2.TabIndex = 1;
             this.label2.Text = resources.GetString("label2.Text");
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(55, 256);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 167);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(174, 131);
             this.pictureBox1.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace WindowsFormsApp2Tereksay
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(290, 256);
+            this.pictureBox2.Location = new System.Drawing.Point(268, 167);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(174, 131);
             this.pictureBox2.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace WindowsFormsApp2Tereksay
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(529, 256);
+            this.pictureBox3.Location = new System.Drawing.Point(507, 167);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(174, 131);
             this.pictureBox3.TabIndex = 4;
@@ -90,7 +90,7 @@ namespace WindowsFormsApp2Tereksay
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(758, 256);
+            this.pictureBox4.Location = new System.Drawing.Point(736, 167);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(174, 131);
             this.pictureBox4.TabIndex = 5;
@@ -99,9 +99,9 @@ namespace WindowsFormsApp2Tereksay
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(12, 429);
+            this.label3.Location = new System.Drawing.Point(12, 312);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(980, 249);
+            this.label3.Size = new System.Drawing.Size(980, 127);
             this.label3.TabIndex = 6;
             this.label3.Text = resources.GetString("label3.Text");
             // 
@@ -109,7 +109,7 @@ namespace WindowsFormsApp2Tereksay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 687);
+            this.ClientSize = new System.Drawing.Size(1004, 446);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -124,6 +124,7 @@ namespace WindowsFormsApp2Tereksay
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         private System.Windows.Forms.PictureBox pictureBox2;
