@@ -8,5 +8,6 @@ namespace WindowsFormsApp2Tereksay
         {
             InitializeComponent();
         }
+
     }
 }
