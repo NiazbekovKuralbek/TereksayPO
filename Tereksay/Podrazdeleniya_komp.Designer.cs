@@ -53,19 +53,19 @@ namespace WindowsFormsApp2Tereksay
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(18, 76);
+            this.label1.Location = new System.Drawing.Point(18, 73);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(390, 34);
+            this.label1.Size = new System.Drawing.Size(390, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Отдел Снабжения \"Эти Бакыр Терексай\"";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(18, 237);
+            this.label2.Location = new System.Drawing.Point(18, 246);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(390, 34);
+            this.label2.Size = new System.Drawing.Size(390, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Отдел Геологии \"Эти Бакыр Терексай\"";
             // 
@@ -90,12 +90,12 @@ namespace WindowsFormsApp2Tereksay
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(314, 9);
+            this.label5.Location = new System.Drawing.Point(425, 9);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(545, 34);
+            this.label5.Size = new System.Drawing.Size(300, 34);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Подразделения компании ОсОО \"Эти Бакыр Терексай\"";
+            this.label5.Text = "Компания ОсОО \"DANIEL\"";
             // 
             // pictureBox1
             // 
@@ -188,6 +188,7 @@ namespace WindowsFormsApp2Tereksay
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         private System.Windows.Forms.Label label9;
