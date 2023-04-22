@@ -49,11 +49,11 @@ namespace WindowsFormsApp2Tereksay
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Location = new System.Drawing.Point(246, 9);
+            this.label1.Location = new System.Drawing.Point(317, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(502, 23);
+            this.label1.Size = new System.Drawing.Size(283, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "История компании ОсОО \"Эти Бакыр Терексай\"";
+            this.label1.Text = "Компания ОсОО \"DANIEL\"";
             // 
             // label2
             // 
