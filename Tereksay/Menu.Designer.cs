@@ -116,9 +116,10 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(188, 60);
             this.button6.TabIndex = 7;
-            this.button6.Text = "Отчеты и Медиа";
+            this.button6.Text = "Цены и сроки";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // menuStrip1
             // 

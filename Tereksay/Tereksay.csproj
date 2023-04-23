@@ -118,6 +118,12 @@
     <Compile Include="Podrazdeleniya_komp.Designer.cs">
       <DependentUpon>Podrazdeleniya_komp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Price_deadlines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Price_deadlines.Designer.cs">
+      <DependentUpon>Price_deadlines.cs</DependentUpon>
+    </Compile>
     <Compile Include="Production.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Podrazdeleniya_komp.resx">
       <DependentUpon>Podrazdeleniya_komp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Price_deadlines.resx">
+      <DependentUpon>Price_deadlines.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Production.resx">
       <DependentUpon>Production.cs</DependentUpon>

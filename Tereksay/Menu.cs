@@ -63,5 +63,11 @@ namespace WindowsFormsApp2Tereksay
         {
             
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Price_deadlines priceDeadlines = new Price_deadlines();
+            priceDeadlines.Show();
+        }
     }
 }
