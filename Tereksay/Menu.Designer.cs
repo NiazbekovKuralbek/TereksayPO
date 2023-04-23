@@ -104,7 +104,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(188, 60);
             this.button5.TabIndex = 6;
-            this.button5.Text = "Социальная ответственность";
+            this.button5.Text = "Контакты";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -142,7 +142,6 @@
             this.сотрудникиToolStripMenuItem.Name = "сотрудникиToolStripMenuItem";
             this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.сотрудникиToolStripMenuItem.Text = "История";
-            this.сотрудникиToolStripMenuItem.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem_Click);
             // 
             // сотрудникиToolStripMenuItem1
             // 
@@ -205,7 +204,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Разработка ИС деятельности горнодобывабщей компании ОсОО \"Эти Бакыр Терексай\"";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
