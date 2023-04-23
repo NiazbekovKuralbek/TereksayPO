@@ -59,5 +59,41 @@ namespace WindowsFormsApp2Tereksay
             Price_deadlines priceDeadlines = new Price_deadlines();
             priceDeadlines.Show();
         }
+
+        private void учредителиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Podrazdeleniya_komp podrazdeleniyaKomp = new Podrazdeleniya_komp();
+            podrazdeleniyaKomp.Show();
+        }
+
+        private void сотрудникиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Company company = new Company();
+            company.Show();
+        }
+
+        private void производствоToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Founders founders = new Founders();
+            founders.Show();
+        }
+
+        private void социальнаяОтветственностьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Price_deadlines priceDeadlines = new Price_deadlines();
+            priceDeadlines.Show();
+        }
+
+
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void контактыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Contacts contacts = new Contacts();
+            contacts.Show();
+        }
     }
 }

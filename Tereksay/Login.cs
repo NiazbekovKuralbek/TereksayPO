@@ -17,10 +17,13 @@ namespace WindowsFormsApp2Tereksay
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Bekzhan" & textBox2.Text == "12345" )
+            if (textBox1.Text == "1234" & textBox2.Text == "12345" )
             {
+                textBox1.Text = "";
+                textBox2.Text = "";
                 Form1 menu = new Form1();
                 menu.Show();
+
             }
             else
             {

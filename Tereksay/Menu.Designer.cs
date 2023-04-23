@@ -33,7 +33,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -43,8 +42,10 @@
             this.учредителиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.производствоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.социальнаяОтветственностьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.отчетИМедиаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справочникToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.контактыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оРазработчикеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -85,22 +86,10 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(594, 323);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(188, 60);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Производство";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(341, 323);
+            this.button5.Location = new System.Drawing.Point(489, 317);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(188, 60);
             this.button5.TabIndex = 6;
@@ -112,7 +101,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.Location = new System.Drawing.Point(75, 323);
+            this.button6.Location = new System.Drawing.Point(223, 317);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(188, 60);
             this.button6.TabIndex = 7;
@@ -123,7 +112,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.оКомпанииToolStripMenuItem, this.производствоToolStripMenuItem, this.социальнаяОтветственностьToolStripMenuItem, this.отчетИМедиаToolStripMenuItem, this.справочникToolStripMenuItem });
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.оКомпанииToolStripMenuItem, this.производствоToolStripMenuItem, this.социальнаяОтветственностьToolStripMenuItem, this.справочникToolStripMenuItem, this.выходToolStripMenuItem });
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(896, 24);
@@ -142,6 +131,7 @@
             this.сотрудникиToolStripMenuItem.Name = "сотрудникиToolStripMenuItem";
             this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.сотрудникиToolStripMenuItem.Text = "История";
+            this.сотрудникиToolStripMenuItem.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem_Click);
             // 
             // сотрудникиToolStripMenuItem1
             // 
@@ -153,31 +143,49 @@
             // 
             this.учредителиToolStripMenuItem.Name = "учредителиToolStripMenuItem";
             this.учредителиToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.учредителиToolStripMenuItem.Text = "Учредители";
+            this.учредителиToolStripMenuItem.Text = "Услуги";
+            this.учредителиToolStripMenuItem.Click += new System.EventHandler(this.учредителиToolStripMenuItem_Click);
             // 
             // производствоToolStripMenuItem
             // 
             this.производствоToolStripMenuItem.Name = "производствоToolStripMenuItem";
-            this.производствоToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
-            this.производствоToolStripMenuItem.Text = "Производство";
+            this.производствоToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.производствоToolStripMenuItem.Text = "Партнеры";
+            this.производствоToolStripMenuItem.Click += new System.EventHandler(this.производствоToolStripMenuItem_Click);
             // 
             // социальнаяОтветственностьToolStripMenuItem
             // 
             this.социальнаяОтветственностьToolStripMenuItem.Name = "социальнаяОтветственностьToolStripMenuItem";
-            this.социальнаяОтветственностьToolStripMenuItem.Size = new System.Drawing.Size(179, 20);
-            this.социальнаяОтветственностьToolStripMenuItem.Text = "Социальная ответственность";
-            // 
-            // отчетИМедиаToolStripMenuItem
-            // 
-            this.отчетИМедиаToolStripMenuItem.Name = "отчетИМедиаToolStripMenuItem";
-            this.отчетИМедиаToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
-            this.отчетИМедиаToolStripMenuItem.Text = "Отчет и медиа";
+            this.социальнаяОтветственностьToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
+            this.социальнаяОтветственностьToolStripMenuItem.Text = "Цены и сроки";
+            this.социальнаяОтветственностьToolStripMenuItem.Click += new System.EventHandler(this.социальнаяОтветственностьToolStripMenuItem_Click);
             // 
             // справочникToolStripMenuItem
             // 
+            this.справочникToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.контактыToolStripMenuItem, this.оРазработчикеToolStripMenuItem });
             this.справочникToolStripMenuItem.Name = "справочникToolStripMenuItem";
             this.справочникToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.справочникToolStripMenuItem.Text = "Справочник";
+            // 
+            // контактыToolStripMenuItem
+            // 
+            this.контактыToolStripMenuItem.Name = "контактыToolStripMenuItem";
+            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.контактыToolStripMenuItem.Text = "Контакты";
+            this.контактыToolStripMenuItem.Click += new System.EventHandler(this.контактыToolStripMenuItem_Click);
+            // 
+            // оРазработчикеToolStripMenuItem
+            // 
+            this.оРазработчикеToolStripMenuItem.Name = "оРазработчикеToolStripMenuItem";
+            this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.оРазработчикеToolStripMenuItem.Text = "О разработчике";
+            // 
+            // выходToolStripMenuItem
+            // 
+            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.выходToolStripMenuItem.Text = "Выход";
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -196,7 +204,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -211,11 +218,14 @@
             this.PerformLayout();
         }
 
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+
+        private System.Windows.Forms.ToolStripMenuItem контактыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem оРазработчикеToolStripMenuItem;
+
         private System.Windows.Forms.PictureBox pictureBox1;
 
         private System.Windows.Forms.ToolStripMenuItem справочникToolStripMenuItem;
-
-        private System.Windows.Forms.ToolStripMenuItem отчетИМедиаToolStripMenuItem;
 
         private System.Windows.Forms.ToolStripMenuItem социальнаяОтветственностьToolStripMenuItem;
 
@@ -231,8 +241,6 @@
         private System.Windows.Forms.Button button6;
 
         private System.Windows.Forms.Button button5;
-
-        private System.Windows.Forms.Button button4;
 
         private System.Windows.Forms.Button button3;
 
