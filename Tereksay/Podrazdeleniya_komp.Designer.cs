@@ -32,186 +32,214 @@ namespace WindowsFormsApp2Tereksay
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Podrazdeleniya_komp));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(18, 73);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(390, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Отдел Снабжения \"Эти Бакыр Терексай\"";
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(18, 246);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(390, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Отдел Геологии \"Эти Бакыр Терексай\"";
-            // 
-            // label3
-            // 
-            this.label3.Location = new System.Drawing.Point(18, 414);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(390, 34);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Центральный склад \"Эти Бакыр Терексай\"";
-            // 
-            // label4
-            // 
-            this.label4.Location = new System.Drawing.Point(18, 586);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(486, 34);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Производственно-технический отдел \"Эти Бакыр Терексай\"";
             // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(425, 9);
+            this.label5.Location = new System.Drawing.Point(70, 50);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(300, 34);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Компания ОсОО \"DANIEL\"";
+            this.label5.Text = "Услуги";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(18, 100);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(70, 126);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(245, 126);
+            this.pictureBox1.Size = new System.Drawing.Size(269, 163);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseClick);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(70, 284);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(269, 30);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Кухонная мебель";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(425, 284);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(269, 30);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Мебель для бизнеса";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(18, 274);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(425, 126);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(245, 126);
-            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.Size = new System.Drawing.Size(269, 163);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseClick);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(817, 284);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(269, 30);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "Мебель для гостиных";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(18, 451);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(817, 126);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(245, 126);
-            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.Size = new System.Drawing.Size(269, 163);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(70, 531);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(269, 30);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Прихожий на заказ";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(18, 623);
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(70, 373);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(245, 126);
-            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.Size = new System.Drawing.Size(269, 163);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox4_MouseClick);
             // 
-            // label6
+            // button5
             // 
-            this.label6.Location = new System.Drawing.Point(269, 100);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(898, 126);
-            this.label6.TabIndex = 13;
-            this.label6.Text = resources.GetString("label6.Text");
+            this.button5.Location = new System.Drawing.Point(425, 531);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(269, 30);
+            this.button5.TabIndex = 18;
+            this.button5.Text = "Шкафы купе";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // label7
+            // pictureBox5
             // 
-            this.label7.Location = new System.Drawing.Point(269, 274);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(898, 129);
-            this.label7.TabIndex = 14;
-            this.label7.Text = resources.GetString("label7.Text");
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(425, 373);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(269, 163);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 17;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseClick);
             // 
-            // label8
+            // button6
             // 
-            this.label8.Location = new System.Drawing.Point(269, 451);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(898, 126);
-            this.label8.TabIndex = 15;
-            this.label8.Text = resources.GetString("label8.Text");
+            this.button6.Location = new System.Drawing.Point(817, 531);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(269, 30);
+            this.button6.TabIndex = 20;
+            this.button6.Text = "Дизайн интерьера";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // label9
+            // pictureBox6
             // 
-            this.label9.Location = new System.Drawing.Point(269, 623);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(898, 126);
-            this.label9.TabIndex = 16;
-            this.label9.Text = resources.GetString("label9.Text");
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(817, 373);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(269, 163);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 19;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox6_MouseClick);
             // 
             // Podrazdeleniya_komp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1179, 776);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.ClientSize = new System.Drawing.Size(1179, 631);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Podrazdeleniya_komp";
-            this.Text = "Подразделения компании";
+            this.Text = "Услуги";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
-
         }
 
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.PictureBox pictureBox6;
 
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox5;
 
-        private System.Windows.Forms.Label label7;
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox4;
 
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pictureBox3;
+
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+
+        private System.Windows.Forms.Button button1;
+
+        private System.Windows.Forms.PictureBox pictureBox1;
 
         private System.Windows.Forms.Label label5;
-
-        private System.Windows.Forms.Label label4;
-
-        private System.Windows.Forms.Label label3;
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
 
         #endregion
     }

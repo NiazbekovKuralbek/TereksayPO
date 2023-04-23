@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business_fur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business_fur.Designer.cs">
+      <DependentUpon>Business_fur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Closets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Closets.Designer.cs">
+      <DependentUpon>Closets.cs</DependentUpon>
+    </Compile>
     <Compile Include="Company.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Company.Designer.cs">
       <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom_hall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom_hall.Designer.cs">
+      <DependentUpon>Custom_hall.cs</DependentUpon>
     </Compile>
     <Compile Include="FactoryForm.cs">
       <SubType>Form</SubType>
@@ -63,6 +81,24 @@
     </Compile>
     <Compile Include="Founders.Designer.cs">
       <DependentUpon>Founders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interior_design.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interior_design.Designer.cs">
+      <DependentUpon>Interior_design.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitchen_fur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitchen_fur.Designer.cs">
+      <DependentUpon>Kitchen_fur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Living_fur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Living_fur.Designer.cs">
+      <DependentUpon>Living_fur.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -96,14 +132,32 @@
     <Compile Include="StockForm.Designer.cs">
       <DependentUpon>StockForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Business_fur.resx">
+      <DependentUpon>Business_fur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Closets.resx">
+      <DependentUpon>Closets.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Company.resx">
       <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom_hall.resx">
+      <DependentUpon>Custom_hall.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FactoryForm.resx">
       <DependentUpon>FactoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Founders.resx">
       <DependentUpon>Founders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interior_design.resx">
+      <DependentUpon>Interior_design.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitchen_fur.resx">
+      <DependentUpon>Kitchen_fur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Living_fur.resx">
+      <DependentUpon>Living_fur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

@@ -39,6 +39,7 @@ namespace WindowsFormsApp2Tereksay
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -49,11 +50,11 @@ namespace WindowsFormsApp2Tereksay
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Location = new System.Drawing.Point(317, 9);
+            this.label1.Location = new System.Drawing.Point(361, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(283, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Компания ОсОО \"DANIEL\"";
+            this.label1.Text = "Компания \"DANIEL\"";
             // 
             // label2
             // 
@@ -113,11 +114,22 @@ namespace WindowsFormsApp2Tereksay
             this.label3.TabIndex = 6;
             this.label3.Text = resources.GetString("label3.Text");
             // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(16, 454);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Сайт";
+            this.label4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label4_MouseClick);
+            // 
             // Company
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 456);
+            this.ClientSize = new System.Drawing.Size(1004, 492);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -132,8 +144,9 @@ namespace WindowsFormsApp2Tereksay
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
-
         }
+
+        private System.Windows.Forms.Label label4;
 
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label3;
