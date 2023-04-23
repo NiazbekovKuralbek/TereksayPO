@@ -129,20 +129,21 @@
             // сотрудникиToolStripMenuItem
             // 
             this.сотрудникиToolStripMenuItem.Name = "сотрудникиToolStripMenuItem";
-            this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.сотрудникиToolStripMenuItem.Text = "История";
             this.сотрудникиToolStripMenuItem.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem_Click);
             // 
             // сотрудникиToolStripMenuItem1
             // 
             this.сотрудникиToolStripMenuItem1.Name = "сотрудникиToolStripMenuItem1";
-            this.сотрудникиToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
+            this.сотрудникиToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.сотрудникиToolStripMenuItem1.Text = "Сотрудники";
+            this.сотрудникиToolStripMenuItem1.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem1_Click);
             // 
             // учредителиToolStripMenuItem
             // 
             this.учредителиToolStripMenuItem.Name = "учредителиToolStripMenuItem";
-            this.учредителиToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.учредителиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.учредителиToolStripMenuItem.Text = "Услуги";
             this.учредителиToolStripMenuItem.Click += new System.EventHandler(this.учредителиToolStripMenuItem_Click);
             // 

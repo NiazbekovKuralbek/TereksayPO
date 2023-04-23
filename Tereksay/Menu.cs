@@ -95,5 +95,11 @@ namespace WindowsFormsApp2Tereksay
             Contacts contacts = new Contacts();
             contacts.Show();
         }
+
+        private void сотрудникиToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Employe employe = new Employe();
+            employe.Show();
+        }
     }
 }
