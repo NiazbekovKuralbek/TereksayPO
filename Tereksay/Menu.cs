@@ -99,6 +99,7 @@ namespace WindowsFormsApp2Tereksay
         private void сотрудникиToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Employe employe = new Employe();
+            
             employe.Show();
         }
     }

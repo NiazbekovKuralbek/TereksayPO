@@ -23,6 +23,7 @@ namespace WindowsFormsApp2Tereksay
             adapter.Fill(dataSet, "Employe");
 
             dataGridView1.DataSource = dataSet.Tables["Employe"];
+            
 
             connection.Close();
         }
