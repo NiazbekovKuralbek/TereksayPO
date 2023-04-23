@@ -64,11 +64,23 @@
     <Compile Include="Company.Designer.cs">
       <DependentUpon>Company.cs</DependentUpon>
     </Compile>
+    <Compile Include="Contacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contacts.Designer.cs">
+      <DependentUpon>Contacts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom_hall.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Custom_hall.Designer.cs">
       <DependentUpon>Custom_hall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employe.Designer.cs">
+      <DependentUpon>Employe.cs</DependentUpon>
     </Compile>
     <Compile Include="FactoryForm.cs">
       <SubType>Form</SubType>
@@ -99,6 +111,12 @@
     </Compile>
     <Compile Include="Living_fur.Designer.cs">
       <DependentUpon>Living_fur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -147,8 +165,14 @@
     <EmbeddedResource Include="Company.resx">
       <DependentUpon>Company.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Contacts.resx">
+      <DependentUpon>Contacts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom_hall.resx">
       <DependentUpon>Custom_hall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employe.resx">
+      <DependentUpon>Employe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FactoryForm.resx">
       <DependentUpon>FactoryForm.cs</DependentUpon>
@@ -164,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Living_fur.resx">
       <DependentUpon>Living_fur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
