@@ -13,7 +13,10 @@ namespace WindowsFormsApp2Tereksay
 
         private void Employe_Load(object sender, EventArgs e)
         {
-            string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\user\RiderProjects\TereksayPO\Daniel.accdb;Persist Security Info=False;";
+           
+            //string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\user\RiderProjects\TereksayPO\Daniel.accdb;Persist Security Info=False;";
+            string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Daniel.accdb;Persist Security Info=False;";
+
             OleDbConnection connection = new OleDbConnection(connectionString);
             connection.Open();
 
