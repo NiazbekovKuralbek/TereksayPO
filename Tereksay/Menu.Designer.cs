@@ -33,15 +33,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.оКомпанииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.сотрудникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.сотрудникиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.учредителиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.производствоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.социальнаяОтветственностьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.отчетИМедиаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справочникToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -85,18 +80,6 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(594, 323);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(188, 60);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Производство";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -123,7 +106,11 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.оКомпанииToolStripMenuItem, this.производствоToolStripMenuItem, this.социальнаяОтветственностьToolStripMenuItem, this.отчетИМедиаToolStripMenuItem, this.справочникToolStripMenuItem });
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.оКомпанииToolStripMenuItem,
+            this.социальнаяОтветственностьToolStripMenuItem,
+            this.отчетИМедиаToolStripMenuItem,
+            this.справочникToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(896, 24);
@@ -132,41 +119,17 @@
             // 
             // оКомпанииToolStripMenuItem
             // 
-            this.оКомпанииToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.сотрудникиToolStripMenuItem, this.сотрудникиToolStripMenuItem1, this.учредителиToolStripMenuItem });
             this.оКомпанииToolStripMenuItem.Name = "оКомпанииToolStripMenuItem";
             this.оКомпанииToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.оКомпанииToolStripMenuItem.Text = "О Компании";
-            // 
-            // сотрудникиToolStripMenuItem
-            // 
-            this.сотрудникиToolStripMenuItem.Name = "сотрудникиToolStripMenuItem";
-            this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.сотрудникиToolStripMenuItem.Text = "История";
-            this.сотрудникиToolStripMenuItem.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem_Click);
-            // 
-            // сотрудникиToolStripMenuItem1
-            // 
-            this.сотрудникиToolStripMenuItem1.Name = "сотрудникиToolStripMenuItem1";
-            this.сотрудникиToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
-            this.сотрудникиToolStripMenuItem1.Text = "Сотрудники";
-            // 
-            // учредителиToolStripMenuItem
-            // 
-            this.учредителиToolStripMenuItem.Name = "учредителиToolStripMenuItem";
-            this.учредителиToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.учредителиToolStripMenuItem.Text = "Учредители";
-            // 
-            // производствоToolStripMenuItem
-            // 
-            this.производствоToolStripMenuItem.Name = "производствоToolStripMenuItem";
-            this.производствоToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
-            this.производствоToolStripMenuItem.Text = "Производство";
+            this.оКомпанииToolStripMenuItem.Click += new System.EventHandler(this.оКомпанииToolStripMenuItem_Click);
             // 
             // социальнаяОтветственностьToolStripMenuItem
             // 
             this.социальнаяОтветственностьToolStripMenuItem.Name = "социальнаяОтветственностьToolStripMenuItem";
             this.социальнаяОтветственностьToolStripMenuItem.Size = new System.Drawing.Size(179, 20);
             this.социальнаяОтветственностьToolStripMenuItem.Text = "Социальная ответственность";
+            this.социальнаяОтветственностьToolStripMenuItem.Click += new System.EventHandler(this.социальнаяОтветственностьToolStripMenuItem_Click);
             // 
             // отчетИМедиаToolStripMenuItem
             // 
@@ -197,7 +160,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -211,6 +173,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -221,20 +184,12 @@
 
         private System.Windows.Forms.ToolStripMenuItem социальнаяОтветственностьToolStripMenuItem;
 
-        private System.Windows.Forms.ToolStripMenuItem производствоToolStripMenuItem;
-
-        private System.Windows.Forms.ToolStripMenuItem сотрудникиToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem учредителиToolStripMenuItem;
-
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem оКомпанииToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem сотрудникиToolStripMenuItem;
 
         private System.Windows.Forms.Button button6;
 
         private System.Windows.Forms.Button button5;
-
-        private System.Windows.Forms.Button button4;
 
         private System.Windows.Forms.Button button3;
 

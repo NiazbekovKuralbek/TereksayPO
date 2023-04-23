@@ -50,7 +50,7 @@ namespace WindowsFormsApp2Tereksay
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("HELLO");
+            
 
         }
 
@@ -68,6 +68,17 @@ namespace WindowsFormsApp2Tereksay
         {
             Price_deadlines priceDeadlines = new Price_deadlines();
             priceDeadlines.Show();
+        }
+
+        private void оКомпанииToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Company company = new Company();
+            company.Show();
+        }
+
+        private void социальнаяОтветственностьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
