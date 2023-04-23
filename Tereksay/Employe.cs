@@ -30,6 +30,9 @@ namespace WindowsFormsApp2Tereksay
             
 
             connection.Close();
+            
+            
+            
         }
     }
 }
