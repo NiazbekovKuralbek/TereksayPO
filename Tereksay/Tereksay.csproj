@@ -76,11 +76,18 @@
     <Compile Include="Custom_hall.Designer.cs">
       <DependentUpon>Custom_hall.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employe.cs">
+    <Compile Include="DataBase.cs" />
+    <Compile Include="Mebel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employe.Designer.cs">
-      <DependentUpon>Employe.cs</DependentUpon>
+    <Compile Include="Mebel.Designer.cs">
+      <DependentUpon>Mebel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_db.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_db.Designer.cs">
+      <DependentUpon>Menu_db.cs</DependentUpon>
     </Compile>
     <Compile Include="FactoryForm.cs">
       <SubType>Form</SubType>
@@ -171,8 +178,11 @@
     <EmbeddedResource Include="Custom_hall.resx">
       <DependentUpon>Custom_hall.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employe.resx">
-      <DependentUpon>Employe.cs</DependentUpon>
+    <EmbeddedResource Include="Mebel.resx">
+      <DependentUpon>Mebel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_db.resx">
+      <DependentUpon>Menu_db.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FactoryForm.resx">
       <DependentUpon>FactoryForm.cs</DependentUpon>
