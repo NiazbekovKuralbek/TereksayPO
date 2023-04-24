@@ -59,6 +59,7 @@ namespace WindowsFormsApp2Tereksay
             this.button2.TabIndex = 1;
             this.button2.Text = "Материал";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -69,6 +70,7 @@ namespace WindowsFormsApp2Tereksay
             this.button3.TabIndex = 2;
             this.button3.Text = "Комплектующие";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -79,6 +81,7 @@ namespace WindowsFormsApp2Tereksay
             this.button4.TabIndex = 3;
             this.button4.Text = "Поставщики";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -89,6 +92,7 @@ namespace WindowsFormsApp2Tereksay
             this.button5.TabIndex = 4;
             this.button5.Text = "Готовый продукт";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -104,7 +108,7 @@ namespace WindowsFormsApp2Tereksay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(825, 400);
+            this.ClientSize = new System.Drawing.Size(825, 389);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
