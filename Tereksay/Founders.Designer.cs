@@ -157,6 +157,8 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Founders";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Founders_FormClosing);
+            this.Load += new System.EventHandler(this.Founders_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

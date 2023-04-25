@@ -104,6 +104,7 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.textBox1);
             this.Name = "Login";
             this.Text = "Авторизация";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
         }

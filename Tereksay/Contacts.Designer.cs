@@ -128,6 +128,8 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.label1);
             this.Name = "Contacts";
             this.Text = "Contacts";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Contacts_FormClosing);
+            this.Load += new System.EventHandler(this.Contacts_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

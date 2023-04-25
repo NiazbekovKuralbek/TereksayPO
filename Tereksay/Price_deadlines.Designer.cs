@@ -115,6 +115,7 @@ namespace WindowsFormsApp2Tereksay
             this.label8.Size = new System.Drawing.Size(722, 190);
             this.label8.TabIndex = 7;
             this.label8.Text = resources.GetString("label8.Text");
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
             // 
@@ -155,6 +156,8 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.label1);
             this.Name = "Price_deadlines";
             this.Text = "Цены и сроки";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Price_deadlines_FormClosing);
+            this.Load += new System.EventHandler(this.Price_deadlines_Load);
             this.ResumeLayout(false);
         }
 

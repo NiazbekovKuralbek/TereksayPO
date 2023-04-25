@@ -139,6 +139,8 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.label1);
             this.Name = "Company";
             this.Text = "О Компании";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Company_FormClosing);
+            this.Load += new System.EventHandler(this.Company_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

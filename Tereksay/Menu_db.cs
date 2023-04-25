@@ -2,6 +2,8 @@ using System;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.OleDb;
+using System.Drawing;
+
 namespace WindowsFormsApp2Tereksay
 {
     public partial class Employe : Form
@@ -13,7 +15,16 @@ namespace WindowsFormsApp2Tereksay
 
         private void Employe_Load(object sender, EventArgs e)
         {
-           
+            // Получаем размер экрана
+            Rectangle screenBounds = Screen.PrimaryScreen.Bounds;
+
+            // Вычисляем координаты для центрирования окна
+            int x = (screenBounds.Width - this.ClientSize.Width) / 2;
+            int y = (screenBounds.Height - this.ClientSize.Height) / 2;
+
+            // Устанавливаем координаты для отображения окна
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(x, y);
           
         }
 

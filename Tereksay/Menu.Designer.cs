@@ -137,7 +137,7 @@
             // 
             this.сотрудникиToolStripMenuItem1.Name = "сотрудникиToolStripMenuItem1";
             this.сотрудникиToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.сотрудникиToolStripMenuItem1.Text = "Сотрудники";
+            this.сотрудникиToolStripMenuItem1.Text = "Учет мебели";
             this.сотрудникиToolStripMenuItem1.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem1_Click);
             // 
             // учредителиToolStripMenuItem
@@ -212,6 +212,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Разработка ИС деятельности горнодобывабщей компании ОсОО \"Эти Бакыр Терексай\"";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

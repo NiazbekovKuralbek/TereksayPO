@@ -211,6 +211,8 @@ namespace WindowsFormsApp2Tereksay
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Podrazdeleniya_komp";
             this.Text = "Услуги";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Podrazdeleniya_komp_FormClosing);
+            this.Load += new System.EventHandler(this.Podrazdeleniya_komp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
