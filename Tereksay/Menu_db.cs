@@ -64,5 +64,16 @@ namespace WindowsFormsApp2Tereksay
             Sales_product salesProduct = new Sales_product();
             salesProduct.Show();
         }
+
+        private void Employe_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+
+
+            Form1 menu = new Form1();
+            menu.Show();
+
+            this.Hide();
+        }
     }
 }

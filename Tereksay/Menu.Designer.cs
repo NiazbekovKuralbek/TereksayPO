@@ -129,21 +129,21 @@
             // сотрудникиToolStripMenuItem
             // 
             this.сотрудникиToolStripMenuItem.Name = "сотрудникиToolStripMenuItem";
-            this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.сотрудникиToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.сотрудникиToolStripMenuItem.Text = "История";
             this.сотрудникиToolStripMenuItem.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem_Click);
             // 
             // сотрудникиToolStripMenuItem1
             // 
             this.сотрудникиToolStripMenuItem1.Name = "сотрудникиToolStripMenuItem1";
-            this.сотрудникиToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.сотрудникиToolStripMenuItem1.Size = new System.Drawing.Size(144, 22);
             this.сотрудникиToolStripMenuItem1.Text = "Учет мебели";
             this.сотрудникиToolStripMenuItem1.Click += new System.EventHandler(this.сотрудникиToolStripMenuItem1_Click);
             // 
             // учредителиToolStripMenuItem
             // 
             this.учредителиToolStripMenuItem.Name = "учредителиToolStripMenuItem";
-            this.учредителиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.учредителиToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.учредителиToolStripMenuItem.Text = "Услуги";
             this.учредителиToolStripMenuItem.Click += new System.EventHandler(this.учредителиToolStripMenuItem_Click);
             // 
@@ -212,7 +212,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Разработка ИС деятельности горнодобывабщей компании ОсОО \"Эти Бакыр Терексай\"";
+            this.Text = "DANIELмебель";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

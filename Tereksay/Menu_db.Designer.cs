@@ -120,6 +120,7 @@ namespace WindowsFormsApp2Tereksay
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Employe";
             this.Text = "Учет данных";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Employe_FormClosing);
             this.Load += new System.EventHandler(this.Employe_Load);
             this.ResumeLayout(false);
         }
