@@ -123,6 +123,7 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Living_fur";
             this.Text = "Мебель для гостиных";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

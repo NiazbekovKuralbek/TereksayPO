@@ -190,6 +190,9 @@
     <EmbeddedResource Include="Custom_hall.resx">
       <DependentUpon>Custom_hall.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Developer.resx">
+      <DependentUpon>Developer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Finish_product.resx">
       <DependentUpon>Finish_product.cs</DependentUpon>
     </EmbeddedResource>

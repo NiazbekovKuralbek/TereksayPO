@@ -31,6 +31,7 @@ namespace WindowsFormsApp2Tereksay
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Finish_product));
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -161,6 +162,7 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Finish_product";
             this.Text = "Готовый продукт";
             this.Load += new System.EventHandler(this.Finish_product_Load);

@@ -31,6 +31,7 @@ namespace WindowsFormsApp2Tereksay
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Modules));
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -161,6 +162,7 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Modules";
             this.Text = "Модули";
             this.Load += new System.EventHandler(this.Modules_Load);

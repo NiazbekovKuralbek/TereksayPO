@@ -154,6 +154,7 @@ namespace WindowsFormsApp2Tereksay
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Price_deadlines";
             this.Text = "Цены и сроки";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Price_deadlines_FormClosing);
