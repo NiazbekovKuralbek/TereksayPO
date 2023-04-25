@@ -47,5 +47,11 @@ namespace WindowsFormsApp2Tereksay
             Finish_product finishProduct = new Finish_product();
             finishProduct.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Sales_product salesProduct = new Sales_product();
+            salesProduct.Show();
+        }
     }
 }
