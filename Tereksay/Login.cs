@@ -17,7 +17,7 @@ namespace WindowsFormsApp2Tereksay
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "1234" & textBox2.Text == "12345" )
+            if (textBox1.Text == "" & textBox2.Text == "" )
             {
                 textBox1.Text = "";
                 textBox2.Text = "";
