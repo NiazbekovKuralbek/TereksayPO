@@ -17,7 +17,7 @@ namespace WindowsFormsApp2Tereksay
         private void Finish_product_Load(object sender, EventArgs e)
         {
             dataBase.openConnection();
-            string query = "SELECT * FROM Product_release INNER JOIN Product ON Product_release.Product = Product.ID";
+            string query = "SELECT Product_release.ID, Product.Name, Product_release.Amount, Product_release.Date FROM Product INNER JOIN Product_release ON Product.ID = Product_release.Product";
             adapter = new SqlDataAdapter( query, dataBase.getConnection());
             Table = new DataTable();
             adapter.Fill(Table);
@@ -39,9 +39,9 @@ namespace WindowsFormsApp2Tereksay
                 Table1 = new DataTable();
                 adapter1 = new SqlDataAdapter(cmd);
                 adapter1.Fill(Table1);
-                comboBox1.DataSource = "Table";
-                comboBox1.ValueMember = "ID";
+                comboBox1.DataSource = Table1;
                 comboBox1.DisplayMember = "Name";
+                comboBox1.ValueMember = "ID";
             }
         }
         private void button1_Click(object sender, EventArgs e)
@@ -126,7 +126,7 @@ namespace WindowsFormsApp2Tereksay
                 {
                     dataBase.openConnection();
                     string quary = "UPDATE Product_release SET Product = '" + comboBox1.SelectedValue + "',Amount='" +
-                                   textBox2.Text + "' WHERE ID ='" +
+                                   textBox2.Text + "',Date='" + dateTimePicker1.Value +"' WHERE ID ='" +
                                    textBox3.Text + "';";
                     SqlCommand cmd = new SqlCommand(quary, dataBase.getConnection());
                     cmd.ExecuteNonQuery();
@@ -151,6 +151,7 @@ namespace WindowsFormsApp2Tereksay
         {
             textBox3.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             textBox2.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            dateTimePicker1.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
             comboBox1.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
         }
     }
