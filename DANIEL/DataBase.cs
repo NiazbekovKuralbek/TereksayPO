@@ -5,7 +5,7 @@ namespace WindowsFormsApp2Tereksay
     public class DataBase
     {
         private SqlConnection con =
-                    new SqlConnection(@"Data Source=BEKZHAN\MURIM;Initial Catalog=Opt_mebel;Integrated Security=True");
+                    new SqlConnection(@"Data Source=;Initial Catalog=Opt_mebel;Integrated Security=True");
                 //Server=BEKZHAN\MURIM;Database=Opt_mebel
                 public void openConnection()
                 {

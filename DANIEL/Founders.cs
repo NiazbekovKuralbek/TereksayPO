@@ -54,5 +54,10 @@ namespace WindowsFormsApp2Tereksay
 
             this.Hide();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

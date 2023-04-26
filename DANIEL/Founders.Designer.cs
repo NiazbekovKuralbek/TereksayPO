@@ -109,6 +109,7 @@ namespace WindowsFormsApp2Tereksay
             this.label6.Size = new System.Drawing.Size(153, 23);
             this.label6.TabIndex = 7;
             this.label6.Text = "BOSETTI MARELLA";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             this.label6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label6_MouseClick);
             // 
             // label7

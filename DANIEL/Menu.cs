@@ -129,5 +129,11 @@ namespace WindowsFormsApp2Tereksay
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(x, y);
         }
+
+        private void оРазработчикеToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Developer developer = new Developer();
+            developer.Show();
+        }
     }
 }
