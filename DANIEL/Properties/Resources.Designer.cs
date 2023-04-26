@@ -45,7 +45,7 @@ namespace WindowsFormsApp2Tereksay.Properties
                 if ((resourceMan == null))
                 {
                     global::System.Resources.ResourceManager temp =
-                        new global::System.Resources.ResourceManager("Tereksay.Properties.Resources",
+                        new global::System.Resources.ResourceManager("DANIEL.Properties.Resources",
                             typeof(Resources).Assembly);
                     resourceMan = temp;
                 }

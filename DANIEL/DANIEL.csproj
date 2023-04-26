@@ -7,7 +7,7 @@
     <ProjectGuid>{868EFF9E-95B1-41AC-A089-C8FB4816AF36}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp2Tereksay</RootNamespace>
-    <AssemblyName>Tereksay</AssemblyName>
+    <AssemblyName>DANIEL</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
